@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a02c19a14c0fe5c48bf6684900c07d16
+guid: b1ba66cdd60bae841bb72c250b8ae37b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2484468885480165045
-    second: Player_Pipe_0
+      213: 2594003671936700650
+    second: Pipe_1080_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Pipe_0
+      name: Pipe_1080_0
       rect:
         serializedVersion: 2
-        x: 288
-        y: 281
-        width: 124
-        height: 319
+        x: 799
+        y: 0
+        width: 202
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5be4e8eb94b9a7220800000000000000
-      internalID: 2484468885480165045
+      spriteID: ae098d39890cff320800000000000000
+      internalID: 2594003671936700650
       vertices: []
       indices: 
       edges: []
