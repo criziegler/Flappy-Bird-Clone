@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
     public Rigidbody2D myRigidbody;
     public float flapStrength;
     public LogicScript logic;
+    public bool playerIsAlive = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,7 +17,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) == true)
+        if (Input.GetKeyDown(KeyCode.Space) == true && playerIsAlive == true)
         {
             myRigidbody.linearVelocity = Vector2.up * flapStrength;
         }
@@ -27,6 +28,7 @@ public class PlayerScript : MonoBehaviour
     {
 
         logic.gameOver();
+        playerIsAlive = false; 
 
     }
 }

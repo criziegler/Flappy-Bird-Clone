@@ -513,7 +513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &690536355
 RectTransform:
   m_ObjectHideFlags: 0
@@ -895,6 +895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1619412054}
   flapStrength: 8
+  logic: {fileID: 0}
+  playerIsAlive: 1
 --- !u!58 &1619412056
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1110,6 +1112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   scoreText: {fileID: 1324126365}
+  gameOverScreen: {fileID: 690536354}
 --- !u!1 &1986527146
 GameObject:
   m_ObjectHideFlags: 0
